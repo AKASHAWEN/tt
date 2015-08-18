@@ -15,7 +15,8 @@ public class voxelGrid {
 		  xRes = x;
 		  yRes = y;
 		  zRes = z;
-		  lattice = new double [x][y][z];		  
+		  lattice = new double [x][y][z];
+		  System.out.println("haha");
 	  }
 	  
 	  public void fillLattice(){
